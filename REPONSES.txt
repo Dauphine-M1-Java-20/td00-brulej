@@ -1,6 +1,6 @@
 brule jeremie 
 
-TP 00
+TP 00 Maven
 
 exo 1
 
@@ -38,4 +38,10 @@ exo 3
 5- eclipse propose de créer une méthode main
 6- eclipise propose de créer des méthode qui permetant de récupérer ou fixer la valeur du champ toto
 7- l'action alt shift r permet  de redefinir les noms
+
+TP 00 bis Git
+
+exo1
+
+5-
 8-
