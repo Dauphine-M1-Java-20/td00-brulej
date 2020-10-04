@@ -54,3 +54,7 @@ exo2
 3- par un trait entre le repository local et le repository distant
 
  MODIFIFCATION QUESTION 5
+ 
+5- le push a été rejeté 
+6- Les version sur le repository distant et sur le repository local ont été fusionnées et un commit a été créé
+7- il y aurait eu un conflit qu'il aurait fallut résoudre à la main, la fusion n'aurait pas été possible
