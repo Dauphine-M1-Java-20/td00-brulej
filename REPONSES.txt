@@ -1,0 +1,41 @@
+brule jeremie 
+
+TP 00
+
+exo 1
+
+4-version
+Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+
+5-
+Le groupId est l'identifiant du groupe, à l'origine du projet. 
+Un artefact est un fichier, généralement un fichier JAR, qui est déployé dans un référentiel maven.
+
+6-
+le repertoir contient target contient les classes, les status maven et les tests 
+
+8-
+le classpath est le chemin de la classe à executer via la commande java
+
+13- 
+Cette propriété sert lorsque il faut  compiler le projet sous plusieurs version. 
+On peut compiler targer et source avec des version différentes. Ici on met 1.7 comme pour source.
+
+exo 2
+
+la commande
+java -cp target/nom-du-jar \
+fr.dauphine.ja.brulejeremie.td00.App
+renvoie une erreur, le chemin n'est pas reconnu
+
+la commande java -jar target/nom-du-jar renvoie une erreur:
+no main manifest attribute, in target/td00-1.0-SNAPSHOT.jar
+
+exo 3
+
+3- eclipse propose un une liste d'instruction dans une fenetre déroulante
+4- eclipse propose une liste d'opérations réalisables dans la classe
+5- eclipse propose de créer une méthode main
+6- eclipise propose de créer des méthode qui permetant de récupérer ou fixer la valeur du champ toto
+7- l'action alt shift r permet  de redefinir les noms
+8-
