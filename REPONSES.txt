@@ -43,5 +43,12 @@ TP 00 bis Git
 
 exo1
 
-5-
-8-
+5- On observe l'ancienne ligne de code en rouge et la nouvelle en vert
+8- 07ce70d2100c01eadc81eb9718343f7a6bb1adc1
+9- on retombe sur la même sortie que la question 5
+10- même sortie que la précédente
+
+exo2
+3- par un trait entre le repository local et le repository distant
+
+ MODIFIFCATION QUESTION 5
