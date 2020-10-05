@@ -10,14 +10,14 @@ public class PrimeCollection
 	String texte;
 	ArrayList<Integer> numbers;
 	
-	public PrimeCollection(ArrayList<Integer> numbers ) {
+	protected PrimeCollection(ArrayList<Integer> numbers ) {
 		this.numbers = numbers;
 	}
-	public PrimeCollection() {
+	protected PrimeCollection() {
 		this.numbers = new ArrayList<Integer>() ;
 	}
 		
-	private void initRandom(int n,int m) {
+	protected void initRandom(int n,int m) {
 		Random random = new Random();
 		for (int i=0; i< n ; i++) {
 			this.numbers.add(random.nextInt(m));
@@ -25,7 +25,7 @@ public class PrimeCollection
 	}
 	
 	
-	private boolean isPrime(int p) {
+	protected boolean isPrime(int p) {
 		int sqrt = (int) Math.sqrt(p);
 		for (int i=2; i <= sqrt; i++) {
 			if (p%i == 0 ){
@@ -36,7 +36,7 @@ public class PrimeCollection
 	
 	}
 	
-	private void printPrimes() {
+	protected void printPrimes() {
 		Iterator it = this.numbers .iterator();
 	    while(it.hasNext()) {
 	    	int elem = (int)it.next();
